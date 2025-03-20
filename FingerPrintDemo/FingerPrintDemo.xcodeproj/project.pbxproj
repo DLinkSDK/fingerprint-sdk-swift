@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22F3A78121DA484CFEEC10B0 /* Pods_FingerPrintDemo_FingerPrintDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DF42953E3155487EF8F38B /* Pods_FingerPrintDemo_FingerPrintDemoUITests.framework */; };
+		57A28102C3AE43BFDB6D275B /* Pods_FingerPrintDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC42637E85C739DBE01AD55 /* Pods_FingerPrintDemoTests.framework */; };
+		F8259CEC453B26127FBC9092 /* Pods_FingerPrintDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A8B381CB862C6EE167A4E3 /* Pods_FingerPrintDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FAFDA282D8BEE6E008415CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FAFDA092D8BEE6C008415CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FAFDA102D8BEE6C008415CE;
+			remoteInfo = FingerPrintDemo;
+		};
+		7FAFDA322D8BEE6E008415CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FAFDA092D8BEE6C008415CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FAFDA102D8BEE6C008415CE;
+			remoteInfo = FingerPrintDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14AAAA1C6E190855C458210F /* Pods-FingerPrintDemo-FingerPrintDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerPrintDemo-FingerPrintDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-FingerPrintDemo-FingerPrintDemoUITests/Pods-FingerPrintDemo-FingerPrintDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		256839CD30E78C942B4E7B82 /* Pods-FingerPrintDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerPrintDemoTests.release.xcconfig"; path = "Target Support Files/Pods-FingerPrintDemoTests/Pods-FingerPrintDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A3BB24FC9C0CCE77D39A0C0 /* Pods-FingerPrintDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerPrintDemo.release.xcconfig"; path = "Target Support Files/Pods-FingerPrintDemo/Pods-FingerPrintDemo.release.xcconfig"; sourceTree = "<group>"; };
+		50A8B381CB862C6EE167A4E3 /* Pods_FingerPrintDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FingerPrintDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8FE9B6A79CCE6B23FA06C8 /* Pods-FingerPrintDemo-FingerPrintDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerPrintDemo-FingerPrintDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-FingerPrintDemo-FingerPrintDemoUITests/Pods-FingerPrintDemo-FingerPrintDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62DF42953E3155487EF8F38B /* Pods_FingerPrintDemo_FingerPrintDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FingerPrintDemo_FingerPrintDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAFDA112D8BEE6C008415CE /* FingerPrintDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerPrintDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAFDA272D8BEE6E008415CE /* FingerPrintDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerPrintDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAFDA312D8BEE6E008415CE /* FingerPrintDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerPrintDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC42637E85C739DBE01AD55 /* Pods_FingerPrintDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FingerPrintDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14CA573A7CCD2D0A8AB6150 /* Pods-FingerPrintDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerPrintDemo.debug.xcconfig"; path = "Target Support Files/Pods-FingerPrintDemo/Pods-FingerPrintDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F6FF39140C565037597B78B6 /* Pods-FingerPrintDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerPrintDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-FingerPrintDemoTests/Pods-FingerPrintDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7FAFDA392D8BEE6E008415CE /* Exceptions for "FingerPrintDemo" folder in "FingerPrintDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7FAFDA102D8BEE6C008415CE /* FingerPrintDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7FAFDA132D8BEE6C008415CE /* FingerPrintDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7FAFDA392D8BEE6E008415CE /* Exceptions for "FingerPrintDemo" folder in "FingerPrintDemo" target */,
+			);
+			path = FingerPrintDemo;
+			sourceTree = "<group>";
+		};
+		7FAFDA2A2D8BEE6E008415CE /* FingerPrintDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FingerPrintDemoTests;
+			sourceTree = "<group>";
+		};
+		7FAFDA342D8BEE6E008415CE /* FingerPrintDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FingerPrintDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FAFDA0E2D8BEE6C008415CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8259CEC453B26127FBC9092 /* Pods_FingerPrintDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAFDA242D8BEE6E008415CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A28102C3AE43BFDB6D275B /* Pods_FingerPrintDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAFDA2E2D8BEE6E008415CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F3A78121DA484CFEEC10B0 /* Pods_FingerPrintDemo_FingerPrintDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47EB49945EBCDD57A4267AF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50A8B381CB862C6EE167A4E3 /* Pods_FingerPrintDemo.framework */,
+				62DF42953E3155487EF8F38B /* Pods_FingerPrintDemo_FingerPrintDemoUITests.framework */,
+				CFC42637E85C739DBE01AD55 /* Pods_FingerPrintDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FAFDA082D8BEE6C008415CE = {
+			isa = PBXGroup;
+			children = (
+				7FAFDA132D8BEE6C008415CE /* FingerPrintDemo */,
+				7FAFDA2A2D8BEE6E008415CE /* FingerPrintDemoTests */,
+				7FAFDA342D8BEE6E008415CE /* FingerPrintDemoUITests */,
+				7FAFDA122D8BEE6C008415CE /* Products */,
+				A73BDC3DB900465A721FC1DA /* Pods */,
+				47EB49945EBCDD57A4267AF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7FAFDA122D8BEE6C008415CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FAFDA112D8BEE6C008415CE /* FingerPrintDemo.app */,
+				7FAFDA272D8BEE6E008415CE /* FingerPrintDemoTests.xctest */,
+				7FAFDA312D8BEE6E008415CE /* FingerPrintDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A73BDC3DB900465A721FC1DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D14CA573A7CCD2D0A8AB6150 /* Pods-FingerPrintDemo.debug.xcconfig */,
+				4A3BB24FC9C0CCE77D39A0C0 /* Pods-FingerPrintDemo.release.xcconfig */,
+				5B8FE9B6A79CCE6B23FA06C8 /* Pods-FingerPrintDemo-FingerPrintDemoUITests.debug.xcconfig */,
+				14AAAA1C6E190855C458210F /* Pods-FingerPrintDemo-FingerPrintDemoUITests.release.xcconfig */,
+				F6FF39140C565037597B78B6 /* Pods-FingerPrintDemoTests.debug.xcconfig */,
+				256839CD30E78C942B4E7B82 /* Pods-FingerPrintDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FAFDA102D8BEE6C008415CE /* FingerPrintDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAFDA3A2D8BEE6E008415CE /* Build configuration list for PBXNativeTarget "FingerPrintDemo" */;
+			buildPhases = (
+				2E710939B9EBB5577B4B3DBB /* [CP] Check Pods Manifest.lock */,
+				7FAFDA0D2D8BEE6C008415CE /* Sources */,
+				7FAFDA0E2D8BEE6C008415CE /* Frameworks */,
+				7FAFDA0F2D8BEE6C008415CE /* Resources */,
+				1D0190C2680FA4056463D32B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7FAFDA132D8BEE6C008415CE /* FingerPrintDemo */,
+			);
+			name = FingerPrintDemo;
+			productName = FingerPrintDemo;
+			productReference = 7FAFDA112D8BEE6C008415CE /* FingerPrintDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FAFDA262D8BEE6E008415CE /* FingerPrintDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAFDA3F2D8BEE6E008415CE /* Build configuration list for PBXNativeTarget "FingerPrintDemoTests" */;
+			buildPhases = (
+				D43070D47B97F223D076E939 /* [CP] Check Pods Manifest.lock */,
+				7FAFDA232D8BEE6E008415CE /* Sources */,
+				7FAFDA242D8BEE6E008415CE /* Frameworks */,
+				7FAFDA252D8BEE6E008415CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAFDA292D8BEE6E008415CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7FAFDA2A2D8BEE6E008415CE /* FingerPrintDemoTests */,
+			);
+			name = FingerPrintDemoTests;
+			productName = FingerPrintDemoTests;
+			productReference = 7FAFDA272D8BEE6E008415CE /* FingerPrintDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FAFDA302D8BEE6E008415CE /* FingerPrintDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAFDA422D8BEE6E008415CE /* Build configuration list for PBXNativeTarget "FingerPrintDemoUITests" */;
+			buildPhases = (
+				8D48C4DE056EC9B51A1426E6 /* [CP] Check Pods Manifest.lock */,
+				7FAFDA2D2D8BEE6E008415CE /* Sources */,
+				7FAFDA2E2D8BEE6E008415CE /* Frameworks */,
+				7FAFDA2F2D8BEE6E008415CE /* Resources */,
+				A4406872D55DFA45F59461CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAFDA332D8BEE6E008415CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7FAFDA342D8BEE6E008415CE /* FingerPrintDemoUITests */,
+			);
+			name = FingerPrintDemoUITests;
+			productName = FingerPrintDemoUITests;
+			productReference = 7FAFDA312D8BEE6E008415CE /* FingerPrintDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FAFDA092D8BEE6C008415CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					7FAFDA102D8BEE6C008415CE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					7FAFDA262D8BEE6E008415CE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 7FAFDA102D8BEE6C008415CE;
+					};
+					7FAFDA302D8BEE6E008415CE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 7FAFDA102D8BEE6C008415CE;
+					};
+				};
+			};
+			buildConfigurationList = 7FAFDA0C2D8BEE6C008415CE /* Build configuration list for PBXProject "FingerPrintDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FAFDA082D8BEE6C008415CE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7FAFDA122D8BEE6C008415CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FAFDA102D8BEE6C008415CE /* FingerPrintDemo */,
+				7FAFDA262D8BEE6E008415CE /* FingerPrintDemoTests */,
+				7FAFDA302D8BEE6E008415CE /* FingerPrintDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FAFDA0F2D8BEE6C008415CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAFDA252D8BEE6E008415CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAFDA2F2D8BEE6E008415CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D0190C2680FA4056463D32B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FingerPrintDemo/Pods-FingerPrintDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FingerPrintDemo/Pods-FingerPrintDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FingerPrintDemo/Pods-FingerPrintDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E710939B9EBB5577B4B3DBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FingerPrintDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D48C4DE056EC9B51A1426E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FingerPrintDemo-FingerPrintDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4406872D55DFA45F59461CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FingerPrintDemo-FingerPrintDemoUITests/Pods-FingerPrintDemo-FingerPrintDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FingerPrintDemo-FingerPrintDemoUITests/Pods-FingerPrintDemo-FingerPrintDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FingerPrintDemo-FingerPrintDemoUITests/Pods-FingerPrintDemo-FingerPrintDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D43070D47B97F223D076E939 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FingerPrintDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FAFDA0D2D8BEE6C008415CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAFDA232D8BEE6E008415CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAFDA2D2D8BEE6E008415CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FAFDA292D8BEE6E008415CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FAFDA102D8BEE6C008415CE /* FingerPrintDemo */;
+			targetProxy = 7FAFDA282D8BEE6E008415CE /* PBXContainerItemProxy */;
+		};
+		7FAFDA332D8BEE6E008415CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FAFDA102D8BEE6C008415CE /* FingerPrintDemo */;
+			targetProxy = 7FAFDA322D8BEE6E008415CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7FAFDA3B2D8BEE6E008415CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14CA573A7CCD2D0A8AB6150 /* Pods-FingerPrintDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FingerPrintDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FingerPrintDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FAFDA3C2D8BEE6E008415CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3BB24FC9C0CCE77D39A0C0 /* Pods-FingerPrintDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FingerPrintDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FingerPrintDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FAFDA3D2D8BEE6E008415CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FAFDA3E2D8BEE6E008415CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FAFDA402D8BEE6E008415CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FF39140C565037597B78B6 /* Pods-FingerPrintDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FingerPrintDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerPrintDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FingerPrintDemo";
+			};
+			name = Debug;
+		};
+		7FAFDA412D8BEE6E008415CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 256839CD30E78C942B4E7B82 /* Pods-FingerPrintDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FingerPrintDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerPrintDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FingerPrintDemo";
+			};
+			name = Release;
+		};
+		7FAFDA432D8BEE6E008415CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8FE9B6A79CCE6B23FA06C8 /* Pods-FingerPrintDemo-FingerPrintDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FingerPrintDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FingerPrintDemo;
+			};
+			name = Debug;
+		};
+		7FAFDA442D8BEE6E008415CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14AAAA1C6E190855C458210F /* Pods-FingerPrintDemo-FingerPrintDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FingerPrintDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FingerPrintDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FAFDA0C2D8BEE6C008415CE /* Build configuration list for PBXProject "FingerPrintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAFDA3D2D8BEE6E008415CE /* Debug */,
+				7FAFDA3E2D8BEE6E008415CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAFDA3A2D8BEE6E008415CE /* Build configuration list for PBXNativeTarget "FingerPrintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAFDA3B2D8BEE6E008415CE /* Debug */,
+				7FAFDA3C2D8BEE6E008415CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAFDA3F2D8BEE6E008415CE /* Build configuration list for PBXNativeTarget "FingerPrintDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAFDA402D8BEE6E008415CE /* Debug */,
+				7FAFDA412D8BEE6E008415CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAFDA422D8BEE6E008415CE /* Build configuration list for PBXNativeTarget "FingerPrintDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAFDA432D8BEE6E008415CE /* Debug */,
+				7FAFDA442D8BEE6E008415CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FAFDA092D8BEE6C008415CE /* Project object */;
+}
