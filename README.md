@@ -23,6 +23,9 @@ But if the user reflash the phone firmware， the fingerprint will be reset.
 
 ### Get FingerPrint Related Infos
 ```swift
+import FingerPrint
+
+
 let deviceId = DeviceFingerprint.deviceId
 let modelName = DeviceFingerprint.modelName
 print(deviceId)
