@@ -6,20 +6,22 @@
 //
 
 import UIKit
-import FingerPrint
+import FingerprintKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        let deviceId = DeviceFingerprint.deviceId
-        let modelName = DeviceFingerprint.modelName
-        print(deviceId)
-        print(modelName)
+        checkDeviceId()
     }
 
-
+    private func checkDeviceId() {
+        let accountId = "_YOUR_ACCOUNT_ID_"
+        let devToken = "_YOUR_DEV_TOKEN_"
+        Fingerprint.generate(accountId: accountId, devToken: devToken) { fingerprint in
+            print(fingerprint)
+        }
+    }
 }
 

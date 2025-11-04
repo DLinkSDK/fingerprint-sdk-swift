@@ -1,21 +1,21 @@
 PODS:
-  - FingerPrint (1.0.0):
+  - FingerprintKit (2.0.0):
     - SAMKeychain (~> 1.5.3)
   - SAMKeychain (1.5.3)
 
 DEPENDENCIES:
-  - FingerPrint
+  - FingerprintKit
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - SAMKeychain
   https://github.com/DLinkSDK/deeplink-dev-specs.git:
-    - FingerPrint
+    - FingerprintKit
 
 SPEC CHECKSUMS:
-  FingerPrint: a22cb55f8c0702cfad3908fe1d2a0c3914078e5a
+  FingerprintKit: d0dbd29aca645d7863fae237ce2c2d903843a51c
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
 
-PODFILE CHECKSUM: f5c61d66ef596cad10263e1bc61f3542be51867f
+PODFILE CHECKSUM: d18b8f3f89e2a344283dc0940139837eaf8aa0a2
 
 COCOAPODS: 1.16.2

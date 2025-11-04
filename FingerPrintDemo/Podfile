@@ -9,7 +9,7 @@ target 'FingerPrintDemo' do
   use_frameworks!
 
   # Pods for FingerPrintDemo
-  pod 'FingerPrint'
+  pod 'FingerprintKit'
 
   target 'FingerPrintDemoTests' do
     inherit! :search_paths
